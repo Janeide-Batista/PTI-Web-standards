@@ -1,0 +1,251 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff1f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.call-to-action {
+    background-color: #fff1f0;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.call-to-action a {
+    background-color: #000;
+    color: #FFF0EF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about {
+    padding: 50px 0;
+  }
+  
+  .about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about .image {
+    width: 100%;
+    height: 200px;
+    background-image: url("Image/Capa.webp");
+    background-size: cover;
+    background-position: center;
+  }
+
+.services {
+    padding: 50px 0;
+}
+
+.services h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    flex: 1 1 33.33%;
+    padding: 0 10px;
+}
+
+.card {
+    background-color: #e4aaaa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    visibility: visible;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-image: url("Imagens/Tratamento-facial.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.benefits {
+    padding: 50px 0;
+}
+
+.benefits h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.benefits li {
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    background-color: #e4aaaa;
+  }
+
+.testimonial {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.testimonial span {
+    font-size: 12px;
+}
+
+.testimonial {
+    background-color: #fbeeee;
+  }
+
+form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact {
+    border: 1px solid #000
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom .form-control {
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .btn {
+        background-color: #000;
+        color: #FFF0EF;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    footer {
+        background-color: #fef5f5;
+        padding: 20px;
+        text-align: center;
+    }
+
+    footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    @media (max-width: 768px) {}
+        .col-md-4 {
+            flex: 1 1 100%;
+            padding: 0 10px;
+        }
+}
